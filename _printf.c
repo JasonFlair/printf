@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * _prinf - prints inputer characters
+ * @*format: number of characters passed to the function
+ * @...: characters to be printed
+ * Return: Prints inputed characters and returns the count
+ */
 
 int _printf(const char *format, ...)
 {
