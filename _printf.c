@@ -3,10 +3,11 @@
 int _printf(const char *format, ...)
 {
     va_list ap;
-    char *ptr;
+    const char *ptr;
     int length, count;
     count = 0;
-    ptr = format;
+    
+    char *ptr = format;
 
     va_start(ap, *format);
     while (*ptr)
