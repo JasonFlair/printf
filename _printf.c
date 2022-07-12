@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _printf - prints inputer characters
+ * _printf - prints inputer characters and returns the lengths
  * @format: number of characters passed to the function
  * @...: characters to be printed
  * Return: Prints inputed characters and returns the count
