@@ -3,7 +3,7 @@
 int _printf(const char *format, ...)
 {
     va_list ap;
-    const char *ptr;
+    const char *ptr; /** pointer to the format */
     int length, count;
     count = 0;
     
