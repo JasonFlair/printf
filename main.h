@@ -3,7 +3,7 @@
 #include <unistd.h>
 
 int _putchar(char s);
-int _printf(char *format, ...);
+int _printf(const char *format, ...);
 long convert_to_bin(int n);
 long convert_to_octa(int n);
 long unsigned convert_to_hexa(long unsigned int num, int det, int *count);
