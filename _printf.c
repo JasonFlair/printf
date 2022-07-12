@@ -7,7 +7,7 @@ int _printf(const char *format, ...)
     int length, count;
     count = 0;
     
-    char *ptr = format;
+    *ptr = format;
 
     va_start(ap, *format);
     while (*ptr)
