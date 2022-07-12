@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include "main.h"
 /**
  * _printf - prints inputer characters and returns the lengths
@@ -141,6 +142,8 @@ int _printf(const char *format, ...)
     return (count);
 }
 =======
+=======
+>>>>>>> 6c7beddf082ca4f4c60beba9c339ba9400f900c4
 #include "main.h"
 /**
  * _printf - prints inputer characters and returns the lengths
@@ -216,5 +219,8 @@ int _printf(const char *format, ...)
 	va_end(ap);
 	return (count);
 }
+<<<<<<< HEAD
 >>>>>>> d70401a65feada18832aff7bc3b93eed4b45f8f0
 >>>>>>> ba1c3edda007705f6644817f2c765a7e9e47de6d
+=======
+>>>>>>> 6c7beddf082ca4f4c60beba9c339ba9400f900c4
