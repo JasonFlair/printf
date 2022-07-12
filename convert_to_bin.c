@@ -1,6 +1,12 @@
 #include "main.h"
 #include <math.h>
 
+/**
+ * convert_to_bin - fuctiontht converts an integer to binary
+ * n - integer to convert
+ * Return: returns count
+ */
+
 long convert_to_bin(int n)
 {
   long bin = 0;
