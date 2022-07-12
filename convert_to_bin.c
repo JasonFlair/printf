@@ -3,7 +3,7 @@
 
 /**
  * convert_to_bin - fuctiontht converts an integer to binary
- * @n - integer to convert
+ * @n: integer to convert
  * Return: returns count
  */
 

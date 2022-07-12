@@ -8,9 +8,9 @@
  * Return: 0 success
  */
 
-long unsigned convert_to_hexa(long unsigned int num, int det, int *count)
+unsigned long convert_to_hexa(unsigned long int num, int det, int *count)
 {
-	long unsigned int rem;
+	unsigned long int rem;
 
 	if (num == 0)
 	{
@@ -45,7 +45,7 @@ long unsigned convert_to_hexa(long unsigned int num, int det, int *count)
  *
  * Return: the count
  */
-int countWrapper(long unsigned int num, int det)
+int countWrapper(unsigned long int num, int det)
 {
 	int count = 0;
 

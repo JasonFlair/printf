@@ -8,7 +8,7 @@ int string(char *s)
 {
 	char *ptr;
 	int count;
-	
+
 	ptr = s;
 	count = 0;
 	while (*ptr)
@@ -17,6 +17,5 @@ int string(char *s)
 		count++;
 		ptr++;
 	}
-	
 	return (count);
 }
