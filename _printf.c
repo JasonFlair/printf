@@ -10,6 +10,7 @@ int _printf(const char *format, ...)
 {
 	va_list ap;
 	const char *ptr;
+	/** pointer to format */
 	int length, count;
 
 	count = 0;
